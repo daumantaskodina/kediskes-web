@@ -1,6 +1,6 @@
 'use client';
 
-import { useLanguage } from '@/app/language-context';
+import { useLanguage } from '../app/language-context';
 import { useState } from 'react';
 
 export function LanguageSwitch() {
@@ -52,4 +52,4 @@ export function LanguageSwitch() {
       )}
     </div>
   );
-} 
+}

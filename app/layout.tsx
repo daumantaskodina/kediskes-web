@@ -1,7 +1,6 @@
 import type React from "react"
 import "./globals.css"
 import { Inter } from "next/font/google"
-// Using absolute import with alias
 import { ThemeProvider } from "../components/theme-provider"
 import { LanguageProvider } from "./language-context"
 

@@ -1,0 +1,10 @@
+/* Add smooth scrolling for the entire html document */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Improve scrollbar appearance */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
